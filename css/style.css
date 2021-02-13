@@ -1,11 +1,31 @@
-header {
-    background-color: red;
+
+
+/*------------HEADER-------------*/
+.navbar-agivr {
+	background-color: #e3f2fd;
 }
 
+.nav-item a {
+	color: black !important;
+}
+
+.nav-item.active a {
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.nav-item a:hover {
+	text-decoration: underline;
+}
+
+
+/*------------CONTENT-------------*/
 .content {
     background-color: cyan;
 }
 
+
+/*------------FOOTER-------------*/
 footer {
     background-color: yellow;
 }
