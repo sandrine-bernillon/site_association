@@ -21,6 +21,37 @@
 
 /*------------CONTENT-------------*/
 
-.content aside {
+.bg-aside {
 	background-color: #ffdd76;
+}
+
+/*------------ASSOCIATION-------------*/
+h5.association {
+	font-size: 2em;
+}
+
+.association {
+	font-size: 1.3em;
+}
+
+@media screen and (max-width: 64em) {
+	.association {
+		font-size: 1.5em;
+	}
+}
+
+@media screen and (max-width: 50em) {
+	.association {
+		font-size: 1em;
+	}
+}
+
+@media screen and (max-width: 30em) {
+	.association {
+		font-size: 1em;
+	}
+
+	h5.association {
+		font-size: 1.5em;
+	}
 }
