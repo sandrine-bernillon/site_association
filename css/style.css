@@ -20,12 +20,7 @@
 
 
 /*------------CONTENT-------------*/
-.content {
-    background-color: cyan;
-}
 
-
-/*------------FOOTER-------------*/
-footer {
-	height: 200px;
+.content aside {
+	background-color: #ffdd76;
 }
